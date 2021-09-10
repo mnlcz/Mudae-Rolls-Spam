@@ -6,6 +6,8 @@ void Spam();
 int main()
 {
     Spam();
+    std::cout << "---> TERMINADO <---" << std::endl;
+    std::cin.get();
     return 0;
 }
 

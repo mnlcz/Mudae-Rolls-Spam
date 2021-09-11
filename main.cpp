@@ -49,7 +49,7 @@ void Spam()
             input[9] = input[8];
             input[9].ki.dwFlags = KEYEVENTF_KEYUP;
             SendInput(10, input, sizeof(input[0]));
-            Sleep(450);
+            Sleep(650);
 
         }
     }
